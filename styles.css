@@ -37,48 +37,58 @@ body{
     font-family: pixel;
     font-size: 40px;
     position: fixed;
-    left: 120px;
+    left: 170px;
     top: 10px;
     color: white;
 
 }
 
 .emailtext{
-    font-family: pixel2;
+    font-family: pixel;
+    color: white;
     font-size: 25px;
     position: fixed;
-    left: 720px;
-    top: 270px;
+    left: 20px;
+    top: 110px;
 }
 
 .email{
     width: 445px;
-    height: 20px;
-    font-family: pixel2;
+    height: 40px;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    font-family: pixel;
+    color: white;
     position: fixed;
-    left: 720px;
-    top: 330px;
-    border-radius: 15px;
-    border: 2px solid black;
+    left: 20px;
+    top: 170px;
+    border-radius: 30px;
+    border: 2px solid rgb(255, 255, 255);
+    font-size: 20px;
     
 }
 
 .passtext{
-    font-family: pixel2;
+    font-family: pixel;
+    color: white;
     font-size: 25px;
     position: fixed;
-    left: 720px;
-    top: 430px;
+    left: 20px;
+    top: 210px;
 }
 
 .pass{
     width: 445px;
-    height: 20px;
-    font-family: pixel2;
+    height: 40px;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    font-family: pixel;
+    color: white;
     position: fixed;
-    left: 720px;
-    top: 390px;
-    border-radius: 15px;
-    border: 2px solid black;
+    left: 20px;
+    top: 270px;
+    font-size: 20px;
+    border-radius: 30px;
+    border: 2px solid rgb(255, 255, 255);
 }
 
