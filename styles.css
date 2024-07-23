@@ -164,3 +164,11 @@ body{
         background-position: right;
     }
 }
+
+.git{
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    left: 230px;
+    top: 530px;
+}

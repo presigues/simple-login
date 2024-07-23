@@ -33,7 +33,7 @@ body{
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
-.logintext{
+.signtext{
     font-family: pixel;
     font-size: 40px;
     position: fixed;
@@ -77,6 +77,30 @@ body{
     top: 210px;
 }
 
+.compass{
+    width: 445px;
+    height: 40px;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    font-family: pixel;
+    color: white;
+    position: fixed;
+    left: 20px;
+    top: 360px;
+    font-size: 20px;
+    border-radius: 30px;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.compasstext{
+    font-family: pixel;
+    color: white;
+    font-size: 25px;
+    position: fixed;
+    left: 20px;
+    top: 310px;
+}
+
 .pass{
     width: 445px;
     height: 40px;
@@ -93,6 +117,7 @@ body{
 }
 
 
+
 .confirm{
     width: 300px;
     height: 40px;
@@ -105,7 +130,7 @@ body{
     color: white;
 
     position: fixed;
-    top: 450px;
+    top: 500px;
     left: 100px;
     transition-duration: 0.4s;
 
@@ -141,7 +166,7 @@ body{
     color: white;
 
     position: fixed;
-    top: 400px;
+    top: 550px;
     left: 100px;
     transition-duration: 0.4s;
 
