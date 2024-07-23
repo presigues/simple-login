@@ -1,11 +1,22 @@
-@font-face { font-family: pixel; src: url("Supercharge-JRgPo.ttf"); }
+@font-face { font-family: pixel; src: url("TTOctosquaresTrialCondensedDemiBold.ttf"); }
+@font-face { font-family: pixel2; src: url("TTOctosquaresTrialLight.ttf"); }
+
+.nav{
+    background-color: white;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 2000px;
+    height: 80px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
 
 body{
     display: flex;
     background-color: white;
     background-image: linear-gradient(45deg, #fae279, #ffcc40, #fdab11,  #ff9100,  #ff7b00, #ff5e00);
     background-size: 400%;
-    animation: bg-animation 20s infinite alternate;
+    animation: bg-animation 12s infinite alternate;
 }
 
 @keyframes bg-animation {
@@ -22,9 +33,26 @@ body{
     height: 600px;
     position: fixed;
     left: 700px;
-    top: 150px;
+    top: 180px;
     background-color: white;
     border-radius: 15px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.logintext{
+    font-family: pixel;
+    font-size: 40px;
+    position: fixed;
+    left: 880px;
+    top: 170px;
+
+}
+
+.emailtext{
+    font-family: pixel2;
+    font-size: 25px;
+    position: fixed;
+    left: 720px;
+    top: 270px;
 }
 
