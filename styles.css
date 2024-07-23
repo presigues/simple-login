@@ -1,5 +1,22 @@
 @font-face { font-family: pixel; src: url("TTOctosquaresTrialCondensedThin.ttf"); }
 
-.emailtext {
-    font-family: pixel;
+.container{
+    height: 96vh;
+    width: 100%;
+    background: linear-gradient(45deg, #d20082, #8F00FF, #7462ff, #2A00FF, #0013FF);
+    background-size: 300% 300%;
+    animation: color 6s ease-in-out infinite;
 }
+
+@keyframes color{
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
+
