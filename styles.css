@@ -1,22 +1,30 @@
-@font-face { font-family: pixel; src: url("TTOctosquaresTrialCondensedThin.ttf"); }
+@font-face { font-family: pixel; src: url("Supercharge-JRgPo.ttf"); }
 
-.container{
-    height: 96vh;
-    width: 100%;
-    background: linear-gradient(45deg, #d20082, #8F00FF, #7462ff, #2A00FF, #0013FF);
-    background-size: 300% 300%;
-    animation: color 6s ease-in-out infinite;
+body{
+    display: flex;
+    background-color: white;
+    background-image: linear-gradient(45deg, #fae279, #ffcc40, #fdab11,  #ff9100,  #ff7b00, #ff5e00);
+    background-size: 400%;
+    animation: bg-animation 20s infinite alternate;
 }
 
-@keyframes color{
-    0%{
-        background-position: 0 50%;
+@keyframes bg-animation {
+    0% {
+        background-position: left;
     }
-    50%{
-        background-position: 100% 50%;
+    100% {
+        background-position: right;
     }
-    100%{
-        background-position: 0 50%;
-    }
+}
+
+.loginback{
+    width: 500px;
+    height: 600px;
+    position: fixed;
+    left: 700px;
+    top: 150px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
