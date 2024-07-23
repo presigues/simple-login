@@ -1,20 +1,12 @@
-@font-face { font-family: pixel; src: url("TTOctosquaresTrialCondensedDemiBold.ttf"); }
+@font-face { font-family: pixel; src: url("Azonix.ttf"); }
 @font-face { font-family: pixel2; src: url("TTOctosquaresTrialLight.ttf"); }
 
-.nav{
-    background-color: white;
-    position: fixed;
-    left: 0px;
-    top: 0px;
-    width: 2000px;
-    height: 80px;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-}
+
 
 body{
     display: flex;
     background-color: white;
-    background-image: linear-gradient(45deg, #fae279, #ffcc40, #fdab11,  #ff9100,  #ff7b00, #ff5e00);
+    background-image: linear-gradient(45deg, #ff63f2, #ffa7d0, #fad179, #ffcc40, #fdab11,  #ff9100,  #ff7b00, #ff5e00, #f558a1, #b12ca6);
     background-size: 400%;
     animation: bg-animation 12s infinite alternate;
 }
@@ -34,7 +26,9 @@ body{
     position: fixed;
     left: 700px;
     top: 180px;
-    background-color: white;
+    background-color: white / 30%;
+    border: 1px solid white;
+    backdrop-filter: blur(20px);
     border-radius: 15px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
@@ -43,8 +37,9 @@ body{
     font-family: pixel;
     font-size: 40px;
     position: fixed;
-    left: 880px;
-    top: 170px;
+    left: 120px;
+    top: 10px;
+    color: white;
 
 }
 
@@ -54,5 +49,36 @@ body{
     position: fixed;
     left: 720px;
     top: 270px;
+}
+
+.email{
+    width: 445px;
+    height: 20px;
+    font-family: pixel2;
+    position: fixed;
+    left: 720px;
+    top: 330px;
+    border-radius: 15px;
+    border: 2px solid black;
+    
+}
+
+.passtext{
+    font-family: pixel2;
+    font-size: 25px;
+    position: fixed;
+    left: 720px;
+    top: 430px;
+}
+
+.pass{
+    width: 445px;
+    height: 20px;
+    font-family: pixel2;
+    position: fixed;
+    left: 720px;
+    top: 390px;
+    border-radius: 15px;
+    border: 2px solid black;
 }
 
