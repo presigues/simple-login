@@ -14,6 +14,6 @@ overall i hope you enjoy seeing how i would design a cool login / signup page.
 
 2 make a project folder, call it whatever you want, add all files
 
-3 use liveserver, click go live while viewing login.html
+3 use liveserver, click go live while viewing index.html
 
 
