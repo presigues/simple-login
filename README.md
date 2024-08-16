@@ -8,4 +8,12 @@ you can click sign up to switch between the login page and sign up page. and you
 
 overall i hope you enjoy seeing how i would design a cool login / signup page. 
 
+**self hosting instructions**
+
+1 download all files 
+
+2 make a project folder, call it whatever you want, add all files
+
+3 use liveserver, click go live while viewing login.html
+
 
